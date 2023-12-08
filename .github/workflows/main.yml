@@ -32,5 +32,4 @@ jobs:
     - name: Build APK
       run: |
         python -m pip install buildozer
-        buildozer init
         buildozer -v android debug
