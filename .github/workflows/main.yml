@@ -22,10 +22,10 @@ jobs:
         node-version: '16'
 
     - name: Checkout repository
-      uses: actions/checkout@v2.4.4
+      uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v2.3.2
+      uses: actions/setup-python@v2
       with:
         python-version: 3.x
 
